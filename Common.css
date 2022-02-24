@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+.fristdiv{
+    width: 100%;
+}
+
+.secondiv{
+    width: 33.3333%;
+}
+
+.imageidv{
+    width: 100%;
+    height: auto;
+}
+
+.pspan{
+    font-size: 64px;
+}
+
+.parapart{
+    /* display: inline-block; */
+    margin-bottom: .5rem;
+}
+
+.parapart a{
+    text-decoration: none;
+}
+
+.parapart a:hover{
+    color: brown;
+}
+
+.text-alinright{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.text-alinright div{
+    width: 85%;
+    
+}
+
+/* 
+.text-alinright p{
+    right: 0;
+} */
+.L-fulldiv{
+    display: flex;
+}
+
+.L_latter{
+    height: 55px;
+    width: 50px;
+    /* display: flex; */
+}
+
+.after_l{
+    display: inline;
+    margin-left: .3REM;
+}
+
+.Nomargnpara{
+    margin-top: -.4;
+}
+
+.textbold{
+    font-weight: bold;
+}
+
+.mauto{
+    margin: auto;
+}
+
+.allpara{
+    margin-bottom: 2rem;
+}
+
+/* boutun */
+.postboutondiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.postboutondiv button{
+    border: none;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    border-radius: 5px;
+}
+
+.postboutondiv a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+
+.button1{
+    background-color: rgb(17, 17, 173);
+}
+
+.button2{
+    background-color: rgb(146, 56, 15);
+}
+
+.icondic2{
+    border-radius: 5px;
+    width: 40px;
+    height: 31px;
+    padding-top: .2rem;
+    background-color: rgb(109, 35, 1);
+}
+
+.button3{
+    background-color: rgb(36, 107, 155);
+}
+
+.icondic3{
+    border-radius: 5px;
+    width: 40px;
+    height: 31px;
+    padding-top: .2rem;
+    background-color: rgb(0, 86, 143);
+}
+
+
+.button4{
+    border-radius: 5px;
+    background-color: rgb(4, 76, 94);
+}
+
+.icondic4{
+    width: 35px;
+    height: 31px;
+    padding-top: .2rem;
+    background-color: rgb(8, 55, 87);
+}
+
+
+.icondic{
+    border-radius: 5px;
+    background-color: rgb(17, 2, 100);
+    width: 32px;
+    height: 33px;
+    padding-top: .1rem;
+}
+
+.icondic i{
+    color: white;
+    margin-top: .19rem;
+}
+
+.icondiccc{
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.iconlink{
+    background-color: black;
+}
+
+/* image */
+.secondiv{
+    padding-left: 3rem;
+}
+
+.theryimgdiv{
+    display: flex;
+}
+
+.col3{
+    width: 33.3333%;
+    padding-left: .8rem;
+    text-align: center;
+}
+
+.col3 img{
+    width:100%;
+    height: auto;
+    margin-bottom: .8rem;
+}
+
+
+/* button{
+    margin-right: .7rem;
+} */
+/* respnsivee */
+
+
+    .collg8{
+      -ms-flex: 0 0 66.6666%;
+      flex: 0 0 66.6666%;
+      max-width: 66.6666%;
+    }
+    
+    
+@media (min-width: 992px) {
+    .post-section{
+        margin: 2rem 4rem 2rem 4rem;
+    }
+
+    .row{
+        display: flex;
+    }
+    
+    .collg4{
+        -ms-flex: 0 0 24.9999%;
+        flex: 0 0 24.9999%;
+        max-width: 24.9999%;
+    }
+}
+
+@media (min-width: 768px) {
+    .post-section{
+        margin: 1.5rem 3rem 1.5rem 3rem;
+    }
+    
+}
+
+@media ((min-width: 576px)) {
+    .post-section{
+        margin: 1.5rem 3rem 1.5rem 3rem;
+    }
+
+    .colsm12{
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    
+    .text-alinright{
+        margin-top: .5rem;
+        width: 100%;
+        text-align: right;
+        
+    }
+    /* .row{
+        display: block;
+      } */
+}
+
+/* @media ((min-width: 576px)) {
+    
+} */
